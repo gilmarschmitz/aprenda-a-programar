@@ -4,6 +4,14 @@ let profissao =  "programador de supervisorio"
 let idade =  33
 let local =  "Paris"
 
-let mensagem = " Olá, " + nome + " !  Somos aqui da agência de turismo Viagem dos Sonhos. Estamos te escrevendo este email, pois acabamos de confirmar as compras das passagens aéreas para " + local + ", Confirma pra gente alguns dados? A sua idade é " + idade + " anos, você é " + profissao + " e o seu email é " + email + " ?  Ficamos no aguardo. Muito obrigado e boa viagem! :D "
+let mensagem = ('  Olá, ' + nome + ' !\n ') +
+  ( ' Somos aqui da agência de turismo Viagem dos Sonhos.\n') +
+  ( '  Estamos te escrevendo este email, \n') +
+  ( '  pois acabamos de confirmar as compras das passagens aéreas para ' + local + ',\n ') +
+  ( ' Confirma pra gente alguns dados?\n') +
+  ( '  A sua idade é ' + idade + ' anos,\n ') +
+  ( ' você é ' + profissao + ' e o seu email é ' + email + ' ?\n ') +
+  ( ' Ficamos no aguardo.\n ') +
+  ( ' Muito obrigado e boa viagem! :D ' )
 
 console.log(mensagem)
